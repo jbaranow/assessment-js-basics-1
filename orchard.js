@@ -185,6 +185,21 @@ console.log(pinkYield);
 */
 
 // CODE HERE 
+let fujiPounds = 0;
+let galaPounds = 0;
+let pinkPounds = 0;
+for (i = 0; i < fujiYield.length; i++) {
+    fujiPounds += fujiYield[i]; 
+}
+for (i = 0; i < galaYield.length; i++) {
+    galaPounds += galaYield[i]; 
+}
+for (i = 0; i < pinkYield.length; i++) {
+    pinkPounds += pinkYield[i]; 
+}
+console.log(fujiPounds);
+console.log(galaPounds);
+console.log(pinkPounds);
 
 // let fujiPounds =
 // let galaPounds =
