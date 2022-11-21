@@ -2,18 +2,19 @@
 /* Create a variable called 'myName' with a value that is your name as a string. */
 
 //CODE HERE 
-let myName = "Julian Baranowski"
+let myName = "Julian Baranowski";
 
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
-
+let faveNum = 12;
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
+let lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -23,6 +24,10 @@ let myName = "Julian Baranowski"
 */
 
 //CODE HERE
+if (faveNum === 13) {
+  console.log('Lucky 13!');
+} else
+console.log('Not luck 13.');
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -30,3 +35,6 @@ let myName = "Julian Baranowski"
 */
 
 //CODE HERE
+for (i = 0; i < 5; i++) {
+  console.log(faveNum);
+}
