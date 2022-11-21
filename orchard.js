@@ -62,6 +62,7 @@ for (i = 0; i < pinkAcres.length; i++) {
     totalAcres += pinkAcres[i];
 }
 
+console.log(totalAcres);
 
 
 // PROBLEM 2
@@ -77,7 +78,9 @@ for (i = 0; i < pinkAcres.length; i++) {
 */
 
 // CODE HERE
+averageDailyAcres = 0;
 
+averageDailyAcres = totalAcres / (fujiAcres.length + galaAcres.length + pinkAcres.length);
 
 
 
@@ -115,7 +118,13 @@ let acresLeft = 174
 let days = 0
 
 // CODE HERE
+while (acresLeft > 0) {
+    acresLeft -= averageDailyAcres;
+    days += 1;
+}
 
+// console.log(acresLeft); For testing purposes to compare against days and make sure value is 0.
+console.log(days);
 
 
 // PROBLEM 4
@@ -143,7 +152,7 @@ let days = 0
 */
 
 // CODE HERE
-
+fujiAcres.slice
 // let fujiTons =
 // let galaTons =
 // let pinkTons =
