@@ -78,4 +78,4 @@ let gitCOmmitCode = 'git commit -m "initial commit" ';
 */
 
 //CODE HERE
-let gitPushDefinition = "";
+let gitPushDefinition = "Git push is used to upload a local repository to a remote repository like GitHub.";
