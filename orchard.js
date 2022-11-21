@@ -152,13 +152,19 @@ console.log(days);
 */
 
 // CODE HERE
-fujiAcres.slice
-// let fujiTons =
-// let galaTons =
-// let pinkTons =
 
+let fujiTons = fujiAcres.slice(0,7);
+let galaTons = galaAcres.slice(0,7);
+let pinkTons = pinkAcres.slice(0,7);
 
+let fujiYield = fujiTons.map(fujiTons => fujiTons * 6.5);
+console.log(fujiYield);
 
+let galaYield = galaAcres.map(galaTons => galaTons * 6.5);
+console.log(galaYield);
+
+let pinkYield = pinkTons.map(galaTons => galaTons * 6.5);
+console.log(pinkYield);
 
 
 
