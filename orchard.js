@@ -50,6 +50,7 @@ const pinkPrice = .55
 */
 
 // CODE HERE
+//here we are taking each array and looping through them and incrementing them each time and putting them into a new value called totalAcres
 let totalAcres = 0;
 
 for (i = 0; i < fujiAcres.length; i++) {
@@ -78,6 +79,7 @@ console.log(totalAcres);
 */
 
 // CODE HERE
+//here we take each array and divide them by the total to get our average daily
 averageDailyAcres = 0;
 
 averageDailyAcres = totalAcres / (fujiAcres.length + galaAcres.length + pinkAcres.length);
@@ -118,6 +120,7 @@ let acresLeft = 174
 let days = 0
 
 // CODE HERE
+//in this section while our acres are > 0 we minus our average from whats left and increment days by 1.
 while (acresLeft > 0) {
     acresLeft -= averageDailyAcres;
     days += 1;
@@ -152,7 +155,7 @@ console.log(days);
 */
 
 // CODE HERE
-
+// here i am using a map function to go ahead nad multiply each value within the array to get the updated values. I know this isnt a loop. After taking some time it seems I needed to use a for of loop.
 let fujiTons = fujiAcres.slice(0,7);
 let galaTons = galaAcres.slice(0,7);
 let pinkTons = pinkAcres.slice(0,7);
@@ -185,6 +188,7 @@ console.log(pinkYield);
 */
 
 // CODE HERE 
+//here I am trying to loop through the new arrays and increase the values. Got partway through this one without getting the output I am looking for. Prints the array but doesnt increment.
 let fujiPounds = 0;
 let galaPounds = 0;
 let pinkPounds = 0;
